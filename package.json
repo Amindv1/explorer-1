@@ -181,7 +181,13 @@
       "es6": true
     },
     "rules": {
-      "prettier/prettier": "error",
+      "import/no-unresolved": 0,
+      "prettier/prettier": [
+        "error",
+        {
+          "endOfLine": "auto"
+        }
+      ],
       "react/jsx-filename-extension": [
         1,
         {

@@ -1,3 +1,8 @@
+import { AMMInstanceCreate } from 'containers/shared/components/Transaction/AMMInstanceCreate'
+import { AMMDeposit } from 'containers/shared/components/Transaction/AMMDeposit'
+import { AMMWithdraw } from 'containers/shared/components/Transaction/AMMWithdraw'
+import { AMMBid } from 'containers/shared/components/Transaction/AMMBid'
+import { AMMVote } from 'containers/shared/components/Transaction/AMMVote'
 import { AccountDeleteTransaction as AccountDelete } from './AccountDelete'
 import { AccountSetTransaction as AccountSet } from './AccountSet'
 import { DepositPreauthTransaction as DepositPreauth } from './DepositPreauth'
@@ -62,4 +67,9 @@ export const transactionTypes: { [key: string]: TransactionMapping } = {
   TicketCreate,
   TrustSet,
   UNLModify,
+  AMMInstanceCreate,
+  AMMWithdraw,
+  AMMDeposit,
+  AMMBid,
+  AMMVote,
 }

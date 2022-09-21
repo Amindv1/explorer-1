@@ -395,4 +395,9 @@
   "fee_rate": "Fee Rate",
   "last_affecting_transaction": "Last affecting tx",
   "increased_by": "increased by"
+  "amm_lp_token_balance": "LP Token Balance",
+  "amm_token_balance": "Token Balance",
+  "amm_trading_fee": "Trading Fee",
+  "amm_tvl": "TVL",
+  "amm_account_address": "Account Address"
 }
