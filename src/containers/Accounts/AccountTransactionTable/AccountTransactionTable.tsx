@@ -11,11 +11,13 @@ import { ANALYTIC_TYPES, analytics } from '../../shared/utils'
 export interface AccountTransactionsTableProps {
   accountId: string
   currencySelected: string
+  hasTokensColumn: boolean
 }
 
 export const AccountTransactionTable = ({
   accountId,
   currencySelected,
+  hasTokensColumn,
 }: AccountTransactionsTableProps) => {
   const { t } = useTranslation()
   const rippledSocket = useContext(SocketContext)
@@ -78,6 +80,7 @@ export const AccountTransactionTable = ({
       )}
       onLoadMore={() => fetchNextPage()}
       hasAdditionalResults={hasNextPage}
+      hasTokensColumn={hasTokensColumn}
     />
   )
 }
