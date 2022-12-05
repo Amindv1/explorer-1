@@ -1,8 +1,8 @@
-import { AMMInstanceCreate } from 'containers/shared/components/Transaction/AMMInstanceCreate'
-import { AMMDeposit } from 'containers/shared/components/Transaction/AMMDeposit'
-import { AMMWithdraw } from 'containers/shared/components/Transaction/AMMWithdraw'
-import { AMMBid } from 'containers/shared/components/Transaction/AMMBid'
-import { AMMVote } from 'containers/shared/components/Transaction/AMMVote'
+import { AMMCreate } from 'containers/shared/components/Transaction/AMM/AMMInstanceCreate'
+import { AMMDeposit } from 'containers/shared/components/Transaction/AMM/AMMDeposit'
+import { AMMWithdraw } from 'containers/shared/components/Transaction/AMM/AMMWithdraw'
+import { AMMBid } from 'containers/shared/components/Transaction/AMM/AMMBid'
+import { AMMVote } from 'containers/shared/components/Transaction/AMM/AMMVote'
 import { AccountDeleteTransaction as AccountDelete } from './AccountDelete'
 import { AccountSetTransaction as AccountSet } from './AccountSet'
 import { DepositPreauthTransaction as DepositPreauth } from './DepositPreauth'
@@ -65,11 +65,11 @@ export const transactionTypes: { [key: string]: TransactionMapping } = {
   EscrowFinish,
   EscrowCancel,
   TicketCreate,
-  TrustSet,
-  UNLModify,
-  AMMInstanceCreate,
+  AMMCreate,
   AMMWithdraw,
   AMMDeposit,
   AMMBid,
   AMMVote,
+  TrustSet,
+  UNLModify,
 }

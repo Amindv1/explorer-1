@@ -51,6 +51,7 @@
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.19.1",
+    "@testing-library/react": "^12.1.2",
     "@types/enzyme": "^3.10.12",
     "@types/jest": "^26.0.24",
     "@types/lodash": "^4.14.186",
@@ -182,6 +183,12 @@
     },
     "rules": {
       "import/no-unresolved": 0,
+      "import/no-extraneous-dependencies": [
+        "error",
+        {
+          "devDependencies": true
+        }
+      ],
       "prettier/prettier": [
         "error",
         {

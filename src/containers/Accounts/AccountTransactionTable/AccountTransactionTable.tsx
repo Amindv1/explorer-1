@@ -75,12 +75,12 @@ export const AccountTransactionTable = ({
     <TransactionTable
       transactions={transactions}
       loading={loading}
+      hasTokensColumn={hasTokensColumn}
       emptyMessage={t(
         tryLoading ? 'get_account_transactions_try' : error?.message,
       )}
       onLoadMore={() => fetchNextPage()}
       hasAdditionalResults={hasNextPage}
-      hasTokensColumn={hasTokensColumn}
     />
   )
 }
