@@ -395,4 +395,21 @@
   "fee_rate": "Fee Rate",
   "last_affecting_transaction": "Last affecting tx",
   "increased_by": "increased by"
+  "amm_lp_token_balance": "LP Token Balance",
+  "amm_token_balance": "Token Balance",
+  "trading_fee": "Trading Fee",
+  "amm_tvl": "TVL",
+  "amm_account_address": "Account Address",
+  "asset1": "Asset 1",
+  "asset2": "Asset 2",
+  "effective_price": "Effective Price",
+  "account_id": "Account ID",
+  "lp_tokens": "LP Tokens",
+  "min_slot_price": "Minimum Slot Price"
+  "nftoken_minter": "NFT Minter",
+  "is_burned": "Burned",
+  "fee_rate": "Fee Rate",
+  "last_affecting_transaction": "Last affecting tx",
+  "increased_by": "increased by",
+  "auth_accounts": "Authorized Accounts"
 }
